@@ -20,7 +20,6 @@ const CartProducts = ({ products }) => {
     <div className="d-flex border my-4">
       <img
         src={products.image}
-        className=""
         style={{ height: "8rem", width: "8rem" }}
         alt={products.title}
       />
